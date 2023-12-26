@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		179782242B3B29F000F440E1 /* ChristmasCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179782232B3B29F000F440E1 /* ChristmasCardApp.swift */; };
-		179782262B3B29F000F440E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179782252B3B29F000F440E1 /* ContentView.swift */; };
 		179782282B3B29F200F440E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179782272B3B29F200F440E1 /* Assets.xcassets */; };
 		1797822B2B3B29F200F440E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1797822A2B3B29F200F440E1 /* Preview Assets.xcassets */; };
 		179782352B3B29F200F440E1 /* ChristmasCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179782342B3B29F200F440E1 /* ChristmasCardTests.swift */; };
 		1797823F2B3B29F200F440E1 /* ChristmasCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1797823E2B3B29F200F440E1 /* ChristmasCardUITests.swift */; };
 		179782412B3B29F200F440E1 /* ChristmasCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179782402B3B29F200F440E1 /* ChristmasCardUITestsLaunchTests.swift */; };
+		1797824E2B3B2A2D00F440E1 /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1797824D2B3B2A2D00F440E1 /* StartingView.swift */; };
+		179782512B3B2B0E00F440E1 /* ChristmasCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179782502B3B2B0E00F440E1 /* ChristmasCardView.swift */; };
+		179782532B3B2B3B00F440E1 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179782522B3B2B3B00F440E1 /* ImageName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		179782202B3B29F000F440E1 /* ChristmasCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179782232B3B29F000F440E1 /* ChristmasCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCardApp.swift; sourceTree = "<group>"; };
-		179782252B3B29F000F440E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		179782272B3B29F200F440E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1797822A2B3B29F200F440E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		179782302B3B29F200F440E1 /* ChristmasCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		1797823A2B3B29F200F440E1 /* ChristmasCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1797823E2B3B29F200F440E1 /* ChristmasCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCardUITests.swift; sourceTree = "<group>"; };
 		179782402B3B29F200F440E1 /* ChristmasCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1797824D2B3B2A2D00F440E1 /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		179782502B3B2B0E00F440E1 /* ChristmasCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCardView.swift; sourceTree = "<group>"; };
+		179782522B3B2B3B00F440E1 /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				179782232B3B29F000F440E1 /* ChristmasCardApp.swift */,
-				179782252B3B29F000F440E1 /* ContentView.swift */,
+				179782542B3B2B4100F440E1 /* Enums */,
+				1797824F2B3B2A3900F440E1 /* Views */,
 				179782272B3B29F200F440E1 /* Assets.xcassets */,
 				179782292B3B29F200F440E1 /* Preview Content */,
 			);
@@ -125,6 +130,23 @@
 				179782402B3B29F200F440E1 /* ChristmasCardUITestsLaunchTests.swift */,
 			);
 			path = ChristmasCardUITests;
+			sourceTree = "<group>";
+		};
+		1797824F2B3B2A3900F440E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				179782502B3B2B0E00F440E1 /* ChristmasCardView.swift */,
+				1797824D2B3B2A2D00F440E1 /* StartingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		179782542B3B2B4100F440E1 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				179782522B3B2B3B00F440E1 /* ImageName.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				179782262B3B29F000F440E1 /* ContentView.swift in Sources */,
+				179782512B3B2B0E00F440E1 /* ChristmasCardView.swift in Sources */,
+				1797824E2B3B2A2D00F440E1 /* StartingView.swift in Sources */,
+				179782532B3B2B3B00F440E1 /* ImageName.swift in Sources */,
 				179782242B3B29F000F440E1 /* ChristmasCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
